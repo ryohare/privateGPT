@@ -16,6 +16,20 @@ llama-index = { extras = ["local_models"], version = "0.9.3" }
 watchdog = "^3.0.0"
 qdrant-client = "^1.6.9"
 chromadb = {version = "^0.4.13", optional = true}
+llama-cpp-python = "^0.2.44"
+langchain-community = "^0.0.20"
+langchain = "^0.1.7"
+atlassian-python-api = "^3.41.10"
+pillow = "^10.2.0"
+pytesseract = "^0.3.10"
+pdf2image = "^1.17.0"
+lxml = "^5.1.0"
+reportlab = "^4.1.0"
+svglib = "^1.5.1"
+rlpycairo = "^0.3.0"
+xlrd = "^2.0.1"
+pandas = "^2.2.0"
+docx2txt = "^0.8"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22"
